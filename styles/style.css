@@ -57,6 +57,12 @@ p {
 .project-description {
   padding: 120px 60px;
 }
+.hikingpicture {
+  padding-top: 20px;
+}
+.weatherpicture {
+  padding-top: 90px;
+}
 @media (max-width: 960px) {
   .project-description {
     padding: 0;
