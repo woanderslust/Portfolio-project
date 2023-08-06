@@ -1,6 +1,6 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
+  --branding-color: #2983dc;
+  --secondary-color: #ebf5fb;
   --heading-font: "Playfair Display", serif;
   --default-font: "Poppins", sans-serif;
 }
@@ -55,17 +55,27 @@ p {
   padding: 15px 30px;
 }
 .project-description {
+  padding: 10px 60px;
+}
+.project-description-left {
   padding: 120px 60px;
 }
 .hikingpicture {
-  padding-top: 20px;
+  margin-top: -30px;
 }
 .weatherpicture {
-  padding-top: 90px;
+  margin-top: 120px;
 }
 @media (max-width: 960px) {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  .project-description-left {
+    padding: 0;
+    text-align: center;
+  }
+  .btn-branding-outline {
+    margin-bottom: 20px;
   }
 }
